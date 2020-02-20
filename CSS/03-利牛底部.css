@@ -1,0 +1,193 @@
+/* 初始化样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+  list-style-type: none;  
+}
+body{
+    font: normal normal 16px/1.5 arial;
+}
+h1,h2,h3{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+
+/* 常用样式 */
+.w960{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 合作机构 */
+.cooperate{
+    height: 225px;
+    /* margin-left: 300px; */
+    /* border: 1px solid red; */
+}
+.cooperate p{
+    font-size: 16px;
+    color: #9a867a;
+    margin-top: 20px;
+}
+.cooperate ul{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+.js, .hx, .hf, .hx2, .zy, .ha, .jx, .zs, .nf, .df{
+    display: inline-block;
+    float: left;
+    width: 120px;
+    height: 35px;
+    margin-right: 60px;
+    margin-top: 15px;
+    /* vertical-align: middle; */
+    background: url(./images/index_sp.png) no-repeat 0px -3px;
+}
+.zs{
+    background: url(./images/index_sp.png) no-repeat 0px -120px;
+}
+.zy{
+    background: url(./images/index_sp.png) no-repeat 0px -60px;
+}
+.jx{
+    background: url(./images/index_sp.png) no-repeat 0px -175px;
+}
+.hx,.hx2{
+    background: url(./images/index_sp.png) no-repeat 0px -225px;
+}
+.hf{
+    background: url(./images/index_sp.png) no-repeat 0px -281px;
+}
+.nf{
+    background: url(./images/index_sp.png) no-repeat 0px -335px;
+}
+.df{
+    background: url(./images/index_sp.png) no-repeat 0px -385px;
+}
+.ha{
+    background: url(./images/index_sp.png) no-repeat 0px -497px;
+}
+/* 网页底部 */
+.footer{
+    background-color: #2c2c2c;
+    height: 240px;
+    color: #a8a8a9;
+    border-bottom: 1px solid #414141;
+}
+.foot{
+    height: 180px;    
+}
+/* 联系我们 */
+.foot .introduce{
+    width: 250px;
+    height: 83px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.foot .introduce h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+
+}
+.foot .introduce ul{
+    font-size: 6px;
+}
+.foot .introduce ul li{
+    padding-bottom: 8px;
+}
+
+/* 客服热线 */
+.foot .hotline{
+    width: 220px;
+    height: 83px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.foot .hotline h4{
+    font-size: 14px; 
+    margin-bottom: 10px;
+}
+.foot .hotline .phone{
+    font-size: 22px;
+}
+.foot .hotline .time{
+    font-size: 12px;
+}
+.foot .hotline .wb, .foot .hotline .wx, .foot .hotline .ios, .foot .hotline .android{
+    display: inline-block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    margin-top: 5px;
+    /* vertical-align: middle; */
+    background: url(./images/index_sp.png) no-repeat -173px -7px;
+}
+.foot .hotline .wx{
+    background: url(./images/index_sp.png) no-repeat -230px -7px;
+}
+.foot .hotline .ios{
+    background: url(./images/index_sp.png) no-repeat -288px -7px;
+}
+.foot .hotline .android{
+    background: url(./images/index_sp.png) no-repeat -345px -7px;
+}
+/* 服务于帮助 */
+.foot .serviceAndHelp{
+    width: 175px;
+    margin-top: 30px;
+    height: 83px;
+}
+.foot .serviceAndHelp .service{
+    width: 60px;
+    margin-right: 55px;
+}
+.foot .serviceAndHelp .service h4{
+    margin-bottom: 10px;
+    font-size: 14px; 
+    
+}
+.foot .serviceAndHelp .service ul{
+    font-size: 13px;
+}
+.foot .serviceAndHelp .service ul li{
+    padding-bottom: 3px;
+}
+.foot .serviceAndHelp .help{
+   
+    width: 60px;
+}
+.foot .serviceAndHelp .help h4{
+    margin-bottom: 10px;
+    font-size: 14px; 
+}
+.foot .serviceAndHelp .help ul{
+    font-size: 13px;
+}
+.foot .serviceAndHelp .help ul li{
+    padding-bottom: 3px;
+}
+
+.footer .line{
+    border-bottom: 1px dashed #414141;
+}
+/* 最底部说明 */
+.foot_down {
+    height: 50px;
+    /* margin-top: 170px; */
+}
+.foot_down ul{   
+    text-align: center;
+    margin-top: 12px;
+    font-size: 13px;
+}

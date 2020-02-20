@@ -1,0 +1,84 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font: 14px "黑体";
+}
+.wraper{
+    width: 100%;
+    height: 1000px;
+}
+.w1000{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    width:100%;
+    height: 215px;
+    /* background-color: #f33; */
+}
+.welcome{
+    color: white;
+    height: 30px;
+    background: url("../images/welcome.gif");
+}
+.wel{
+    color: white;
+    float: left;
+    margin-top: 7px;
+    font-size: 12px;
+}
+.shouye{
+    float: right;
+}
+.shouye a{
+    color: white;
+    display: inline-block;
+    padding-top: 7px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.shouye a:hover{
+    color: yellow;
+}
+.phone{
+    height: 135px;
+    background: url(../images/phone3.gif);
+}
+.jcy{
+    float: left;
+    margin-top: 15px;
+}
+.pho{
+    float: right;
+    margin-top: 27px;
+}
+.tell{
+    float: right;
+    margin-top: 10px;
+    color: red;
+    font-size: 20px;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background: url("../images/nav.gif");
+    margin-top: -17px;
+}
+.nav ul{
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0; */
+}
+.nav ul li{
+    display:inline-block; 
+    margin-top: 10px;
+    padding: 0 28px;
+}
+.nav ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: yellow;
+}
